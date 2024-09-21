@@ -27,18 +27,16 @@
 	"cmd.json.*",
 	"cmd.bot.use",
 	"cmd.rights.can",
-	"cmd.plugin.*",
-	"*",
 ]
 
 # Admin rule
 [[rule]]
 	# Set your admin Group Ids here, ex: [ 13, 42 ]
-	groupid = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+	groupid = [ ]
 	# And/Or your admin Client Uids here
 	useruid = [ "A0sGdxp+pTWbGgX7ltLrKBctgJI=", "+yXb2Xx6UI3iqTCwiBWUK2s8f8A="]
 	# By default treat requests from localhost as admin
-	ip = [ "0.0.0.0" ]
+	ip = [  ]
 
 	"+" = "*"
 
